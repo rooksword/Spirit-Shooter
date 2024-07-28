@@ -20,4 +20,3 @@ buffer_get_surface(blood_buffer, blood, 0);
 
 draw_sprite(bg_walls, 0, 0, 0);
 draw_surface_ext(blood, 0, 0, 1, 1, 0, c_white, 0.5);
-

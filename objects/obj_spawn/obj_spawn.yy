@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawnCoin",
+  "%Name":"obj_spawn",
   "eventList":[],
   "managed":true,
-  "name":"obj_spawnCoin",
+  "name":"obj_spawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coins",
-    "path":"folders/Objects/Coins.yy",
+    "name":"Systems",
+    "path":"folders/Objects/Systems.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_coin",
-    "path":"sprites/spr_coin/spr_coin.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

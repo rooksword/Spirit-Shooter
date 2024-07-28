@@ -6,4 +6,7 @@ draw_clear_alpha(c_white, 0);
 draw_sprite(bg_walls, 0, 0, 0);
 with obj_cast event_perform(ev_draw, 0);
 surface_reset_target();
+
+var _cam = obj_camera.cam;
+
 draw_surface_ext(surface, 8, 8, 1, 1, 0, c_black, 0.5);

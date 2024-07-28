@@ -19,23 +19,7 @@ function Vec2(_x = 0, _y = 0) constructor
 
 function Restart()
 {
-	if score > sav.get("score")
-	{
-		sav.set("score", score);
-	}
-		
-	var _level = sav.get("level");
-	with obj_player if _level < array_length(roster) global.gun_unlock = roster[_level].sprite_index;
-		
-	var _level = sav.get("level");
-	if score / 2 >= _level and _level < array_length(obj_player.roster)
-	{
-		sav.set("level", _level + 1);
-		room_goto(rm_unlock);
-	}
-	else room_restart();
-		
-	sav.save("");
+	room_restart();
 	
 	score = 0;
 	audio_stop_all();
@@ -43,10 +27,10 @@ function Restart()
 
 function NewCoin()
 {
-	var _inst = instance_find(obj_spawnCoin, irandom(instance_number(obj_spawnCoin) - 1));
-	while coinspawn == _inst _inst = instance_find(obj_spawnCoin, irandom(instance_number(obj_spawnCoin) - 1));
+	var _inst = instance_find(obj_spawn, irandom(instance_number(obj_spawn) - 1));
+	while coinspawn == _inst _inst = instance_find(obj_spawn, irandom(instance_number(obj_spawn) - 1));
 	coinspawn = _inst;
-	instance_create_layer(_inst.x, _inst.y, "Guns", obj_coin);
+	instance_create_layer(_inst.x, _inst.y, "Guns", obj_gun);
 }
 
 function Sleep(_time)
