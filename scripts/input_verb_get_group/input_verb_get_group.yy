@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_verb_get_group",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_verb_get_group",
+  "parent":{
+    "name":"Verbs",
+    "path":"folders/Packages/Input/Verbs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

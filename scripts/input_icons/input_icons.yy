@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_icons",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_icons",
+  "parent":{
+    "name":"Other",
+    "path":"folders/Packages/Input/Other.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

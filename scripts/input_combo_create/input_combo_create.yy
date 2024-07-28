@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_combo_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_combo_create",
+  "parent":{
+    "name":"Extended Verbs",
+    "path":"folders/Packages/Input/Extended Verbs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

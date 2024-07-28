@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_gamepad_get_dpad_style",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_gamepad_get_dpad_style",
+  "parent":{
+    "name":"Deprecated",
+    "path":"folders/Packages/Input/(System)/Deprecated.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

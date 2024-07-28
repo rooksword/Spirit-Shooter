@@ -1,0 +1,3 @@
+/// @desc Movement
+
+fsm.step();
